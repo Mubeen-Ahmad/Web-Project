@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>2nd Assignment by Mubeen Ahmad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img src="saylani logo.jpg" alt="saylani logo">
+        <h2 id="first">Student Registration Form</h2>
+    </header>
+    <fieldset class="form-start">
+        <form>
+            <table>
+                <tr>
+                    <td><label for="First name">First name</label></td>
+                    <td> <input type="text" name="First name" placeholder="Enter first name" size="15" maxlength="30" />
+                        (max 30 characters a-z and A-Z) </td>
+                </tr>
+
+                <tr>
+                    <td><label for="Last name">Last name</label></td>
+                    <td> <input type="text" name="Last name" placeholder="Enter last name" size="15" maxlength="30" />
+                        (max 30 characters a-z and A-Z) </td>
+                </tr>
+                <tr>
+                    <td><label for="Date of Birth">Date of Birth</label></td>
+                    <td><input type="date" name="date" required id="date"></td>
+                </tr>
+                <tr>
+                    <td><label for="Email">Email ID</label></td>
+                    <td><input type="email" placeholder="Enter email adress" size="15" maxlength="30"></td>
+                </tr>
+                <tr>
+                    <td><label for="Mobile Number">Mobile Number</label></td>
+                    <td><input type="number" placeholder="Enter mobile number" size="15" maxlength="11">(11 digit
+                        number)
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Gender</label></td>
+                    <td>Male <input type="radio" name="Gender" value="male">
+                        Female <input type="radio" name="Gender" value="female"></td>
+                </tr>
+                <tr>
+                    <td><label for="Adress">Adress</label></td>
+                    <td> <textarea name="Adress" cols="20" rows="4" placeholder="Enter your adress..."></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="City">City</label></td>
+                    <td> <input type="text" name="City" placeholder="Enter city name" size="15" maxlength="30" />
+                        (max 30 characters a-z and A-Z) </td>
+                </tr>
+                <tr>
+                    <td><label for="Pin Code">Pin Code</label></td>
+                    <td> <input type="number" name="Pin Code" placeholder="Enter pincode" size="15" maxlength="6" />
+                        (6 digit number) </td>
+                </tr>
+                <tr>
+                    <td><label for="State">State</label></td>
+                    <td> <input type="text" name="State" placeholder="Enter state" size="15" maxlength="30" />
+                        (max 30 characters a-z and A-Z) </td>
+                </tr>
+                <tr>
+                    <td><label for="Country">Country</label></td>
+                    <td> <input type="text" name="Country" placeholder="Enter country" size="15" maxlength="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Hobbies">Hobbies</label></td>
+                    <td>
+                        Drawing <input type="checkbox" name="Hobbies" value="Drawing">
+                        Singing <input type="checkbox" name="Hobbies" value="Singing">
+                        Dancing <input type="checkbox" name="Hobbies" value="Dancing">
+                        Sketching <input type="checkbox" name="Hobbies" value="Sketching"><br>
+                        Others <input type="checkbox" name="Hobbies" value="Others">
+                        <input type="text" name="Hobbies">
+                    </td>
+                </tr>
+                <table>
+                    <tr>
+                        <td rowspan="6" style="vertical-align: top;"><label for="Qualification">Qualification</label>
+                        </td>
+                        <td>S1.NO.</td>
+                        <td>Examination</td>
+                        <td>Board</td>
+                        <td>Percentage</td>
+                        <td>Year of Passing</td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Class X</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="number"></td>
+                    </tr>
+
+                    <tr>
+                        <td>2</td>
+                        <td>Class XII</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="number"></td>
+                    </tr>
+
+                    <tr>
+                        <td>3</td>
+                        <td>Graduation</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="number"></td>
+                    </tr>
+
+                    <tr>
+                        <td>4</td>
+                        <td>Masters</td>
+                        <td><input type="text"></td>
+                        <td><input type="text"></td>
+                        <td><input type="number"></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td>(10 char max)</td>
+                        <td>(upto 2 decimal)</td>
+                        <td></td>
+                    </tr>
+                </table>
+                <tr>
+                    <td><label for="Courses Applied For">Courses <br> Applied For</label></td>
+                    <td>
+                        BCA <input type="radio" name="Courses Applied For" value="BCA">
+                        B.Com<input type="radio" name="Courses Applied F or" value="B.Com">
+                        B.Sc<input type="radio" name="Courses Applied For" value="B.Sc">
+                        B.A<input type="radio" name="Courses Applied For" value="B.A">
+                    </td>
+                </tr>
+                <br>
+                <br>
+
+                <tr>
+                    <td>
+                        <div class="form-end">
+                            <span><a href="submit.html"><input type="button" value="Submit" /></a>
+                                <button type="reset">Reset</button>
+                            </span>
+                        </div>
+                    </td>
+                </tr>
+
+            </table>
+        </form>
+    </fieldset>
+    <p align="center"> Assignment Created by <strong>Mubeen Ahmad</strong>
+        Roll # <strong>WM13142</strong>
+    </p>
+    <p align="center"><a href="../index.html">Back to main page</a></p>
+</body>
+
+</html>

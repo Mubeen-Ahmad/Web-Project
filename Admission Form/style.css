@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    flex-flow: column;
+}
+header img{
+    align-self: center;
+}
+#first{
+    color: blueviolet;
+    text-align: center;
+    font-weight: bold;
+}
+.form-start{
+    /* border: 1px solid #cfcfcf; */
+    min-height: 55vh;
+    align-self: center;
+    border-radius: 5px;
+    background-color: #6B5ACD;
+    color:#fff;
+}
+.form-end{
+    text-align: center;
+}
