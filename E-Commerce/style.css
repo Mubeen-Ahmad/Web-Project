@@ -1,0 +1,58 @@
+.navbar{
+  background-image: url(images/f\ logo.jpg);
+  width:auto;
+  height: 100px !important;
+
+  background-repeat:no-repeat !important;
+  background-size:cover !important;
+}
+
+.footer{
+  background-position: initial !important; 
+  background-size: initial !important;
+   background-repeat: initial !important;
+    background-attachment: initial !important;
+     background-origin: initial !important;
+      background-clip: initial !important; 
+      background-color:#25272E !important;
+}
+.copyright{
+background-color: #316DD9;
+color: white;
+}
+.gallery{
+  align-items: center;
+  padding: 50px;
+  padding-bottom: 200px;
+}
+.about{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.contact{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.gallery{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: grey;
+  color: white;
+  cursor: pointer;
+ 
+  border-radius: 2px;
+}
+
+#myBtn:hover {
+  background-color: #555;
+}

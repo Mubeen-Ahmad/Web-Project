@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculater</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../bootstrap-4.4.1-dist/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <div class="main container-fluid py-5">
+        <div class="calc">
+            <div class="sector">
+                <div class="display d-flex justify-content-center py-2">
+                    <input type="text" id="result">
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="column">
+                        <button onclick="clearResult('')" class="btn-primary rounded-pill ">C</button>
+                        <button onclick="getnum('0.5') " class="upbtn rounded-pill">1/2</button>
+                        <button onclick="getnum('%') " class="upbtn rounded-pill">%</button>
+                        <button onclick="getnum('/') " class="upbtn rounded-pill ">/</button>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="column">
+                        <button onclick="getnum('7') " class="butn rounded-pill">7</button>
+                        <button onclick="getnum('8') " class="butn rounded-pill">8</button>
+                        <button onclick="getnum('9') " class="butn rounded-pill ">9</button>
+                        <button onclick="getnum('*') " class="butn rounded-pill">x</button>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="column">
+                        <button onclick="getnum('4') " class="butn rounded-pill">4</button>
+                        <button onclick="getnum('5') " class="butn rounded-pill">5</button>
+                        <button onclick="getnum('6') " class="butn rounded-pill">6</button>
+                        <button onclick="getnum('-') " class="butn rounded-pill">-</button>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center">
+                    <div class="column">
+                        <button onclick="getnum('1') " class="butn rounded-pill">1</button>
+                        <button onclick="getnum('2') " class="butn rounded-pill">2</button>
+                        <button onclick="getnum('3') " class="butn rounded-pill">3</button>
+                        <button onclick="getnum('+') " class="butn rounded-pill">+</button>
+                    </div>
+                </div>
+                <div class="row d-flex justify-content-center ">
+                    <div class="column">
+                        <button onclick="getnum('0') " class=" lastbtn rounded-pill">0</button>
+                        <button onclick="getnum('00') " class="lastbtn rounded-pill">00</button>
+                        <button onclick="getnum('.') " class="lastbtn rounded-pill">.</button>
+                        <button onclick="getResult() " class="btn-equal rounded-pill">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <p align="center"> Assignment Created by <strong>Mubeen Ahmad</strong>
+        Roll # <strong>WM13142</strong>
+    </p>
+    <p align="center"><a href="../index.html">Back to main page</a></p>
+    
+
+</body>
+<script src="app.js"></script>
+
+</html>
